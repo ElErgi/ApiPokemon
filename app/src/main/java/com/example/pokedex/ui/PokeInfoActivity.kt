@@ -10,7 +10,7 @@ import com.example.pokedex.databinding.ActivityPokeInfoBinding
 
 class PokeInfoActivity : AppCompatActivity() {
 
-    lateinit var viewModel: PokeInfoViewModel
+    private lateinit var viewModel: PokeInfoViewModel
     private lateinit var binding: ActivityPokeInfoBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
